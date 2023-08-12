@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>sample_saucelabs</name>
+   <name>tc_example</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e4b6c486-8c49-4988-b572-338820f299c4</testCaseGuid>
+   <testCaseGuid>209a2350-0f46-4733-9a45-a87b1fdace53</testCaseGuid>
 </TestCaseEntity>

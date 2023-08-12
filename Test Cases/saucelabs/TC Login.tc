@@ -4,30 +4,30 @@
    <name>TC Login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e44e71bb-781b-4bb2-b6c8-f8257319c8a0</testCaseGuid>
+   <testCaseGuid>8b75e587-8b34-4e71-82e9-d4147d52e91e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c19acd6f-0a75-4d20-8c80-e128d1c998dd</variableId>
+      <variableId>c2717d96-5cf8-4a2c-86c3-4b97488e6840</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>43cab656-7d04-4519-bf2c-fe0a596ff83c</variableId>
+      <variableId>9e8ad223-64f4-4e08-bb86-7c45fe46afe3</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'standard_user'</defaultValue>
       <description></description>
-      <id>c19acd6f-0a75-4d20-8c80-e128d1c998dd</id>
+      <id>c2717d96-5cf8-4a2c-86c3-4b97488e6840</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
       <defaultValue>'secret_sauce\r\n'</defaultValue>
       <description></description>
-      <id>43cab656-7d04-4519-bf2c-fe0a596ff83c</id>
+      <id>9e8ad223-64f4-4e08-bb86-7c45fe46afe3</id>
       <masked>false</masked>
       <name>password</name>
    </variable>

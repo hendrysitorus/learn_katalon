@@ -4,31 +4,57 @@
    <name>TC Login DDT</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3ffdbe61-a74f-4bdd-8a47-ff95853181b3</testCaseGuid>
+   <testCaseGuid>cdc6c273-e46f-4ed4-a844-3347e879f56a</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>39ef26dc-7ed3-4dcd-9f82-625d80eecd40</variableId>
+      <variableId>f6d4775a-7355-440d-9022-efb990e65f0d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>443990f4-4676-4acc-8548-b69ac36d4af2</variableId>
+      <variableId>da4ecb17-7cf5-42b1-af33-b2a43a610a35</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f4dda85e-0ce6-4ebf-8cc4-a1899e0f676c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>43d6c9ef-ffd2-4906-994e-cf4523bda1bc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'P\r\n'</defaultValue>
+      <description></description>
+      <id>f6d4775a-7355-440d-9022-efb990e65f0d</id>
+      <masked>false</masked>
+      <name>testType</name>
+   </variable>
    <variable>
       <defaultValue>'standard_user'</defaultValue>
       <description></description>
-      <id>39ef26dc-7ed3-4dcd-9f82-625d80eecd40</id>
+      <id>da4ecb17-7cf5-42b1-af33-b2a43a610a35</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
       <defaultValue>'secret_sauce\r\n'</defaultValue>
       <description></description>
-      <id>443990f4-4676-4acc-8548-b69ac36d4af2</id>
+      <id>f4dda85e-0ce6-4ebf-8cc4-a1899e0f676c</id>
       <masked>false</masked>
       <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>43d6c9ef-ffd2-4906-994e-cf4523bda1bc</id>
+      <masked>false</masked>
+      <name>expectedWarningMessage</name>
    </variable>
 </TestCaseEntity>

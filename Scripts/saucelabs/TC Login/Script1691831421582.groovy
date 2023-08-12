@@ -19,13 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.saucedemo.com/v1/')
+WebUI.navigateToUrl(GlobalVariable.urlSauceLabs)
 
-WebUI.waitForElementPresent(findTestObject('saucelabs/loginScreen/fieldUsername'), 0)
+WebUI.waitForElementPresent(findTestObject('saucelabs/loginScreen/field_username'), 0)
 
-WebUI.sendKeys(findTestObject('saucelabs/loginScreen/fieldUsername'), username)
+WebUI.setText(findTestObject('saucelabs/loginScreen/field_username'), 'standard_user')
 
-WebUI.sendKeys(findTestObject('saucelabs/loginScreen/FieldPassword'), password)
+WebUI.setEncryptedText(findTestObject('saucelabs/loginScreen/field_password'), 'qcu24s4901FyWDTwXGr6XA==')
+
+WebUI.click(findTestObject('saucelabs/loginScreen/btnLogin'))
+
+WebUI.click(findTestObject('saucelabs/loginScreen/btnBurgerMenu'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

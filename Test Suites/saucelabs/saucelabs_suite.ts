@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>saucelabs</name>
+   <name>saucelabs_suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,16 +10,16 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>8bc738eb-0492-40fc-842c-a500c1e3302b</testSuiteGuid>
+   <testSuiteGuid>759885a8-c220-4ad6-9b87-53b7a0fea569</testSuiteGuid>
    <testCaseLink>
-      <guid>367d0a2e-e99a-4cc6-88d6-abb3928a57c6</guid>
+      <guid>40cf6808-a4ca-40fd-902b-4c29a075cd70</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/sample_saucelabs</testCaseId>
+      <testCaseId>Test Cases/sample_saucelabs_web/sample_saucelabs_web_record</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0e9f3d65-bd28-42f2-b6ab-5fc178d5625e</guid>
+      <guid>06d0c5ff-8f96-44c8-9b7d-0d1f0fed1284</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/saucelabs/TC Login</testCaseId>
@@ -28,13 +28,13 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c19acd6f-0a75-4d20-8c80-e128d1c998dd</variableId>
+         <variableId>c2717d96-5cf8-4a2c-86c3-4b97488e6840</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>43cab656-7d04-4519-bf2c-fe0a596ff83c</variableId>
+         <variableId>9e8ad223-64f4-4e08-bb86-7c45fe46afe3</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
